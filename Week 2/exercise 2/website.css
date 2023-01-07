@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url(bg1.jpeg);
+    /* background-image:url(bg1.jpeg);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
  /* .box{
@@ -17,6 +17,8 @@ body{
 /* NAVIGATION*/
 .header{
     height:72px;
+    background-color: black;
+    
 }
 nav {
     display:flex;
@@ -34,28 +36,30 @@ nav ul{
         display:flex;
         flex-wrap: wrap;
         font-size: 25px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 247, 247);
         text-decoration: none;
         padding: 22px 36px;
 
     }
     nav ul li a:hover{
-        background-color: rgba(187, 125, 66, 0.67);
+        background-color: rgba(57, 57, 57, 0.67);
        
         
     }
     #search{
-        height:25px;
+        height:30px;
         margin-top: 20px;
+         width: 130px;
         border-radius: 50px;
+        background-color: hwb(175 6% 5%);
     }
 .title{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 19px 0px 13px 9px;
 
 }
 span{
-    color:red
+    color:hwb(175 6% 5%);
 }
 /*........Body.......*/
 /*........
@@ -68,6 +72,8 @@ span{
     height:720px;
     padding-top: 180px;
     padding-bottom: 180px;
+    background-color: #2f2c2c;
+    color: hwb(0 100% 0%);
 }
 /* .projects{ */
     /* border:5px solid red; */
@@ -86,12 +92,13 @@ span{
 .pic img{
     height: auto;
     width: 535px;
-    border:2px solid black;
+    border:10px solid black;
     border-radius: 50%;
     
 }
 #me{
     margin-bottom: 115px;
+    color:hwb(175 6% 5%);
 }
 
 h2{
@@ -132,15 +139,13 @@ p{
     height:720px;
     padding-top: 180px;
     padding-bottom: 180px;
-    background-image:url(bg1.jpeg);
-    background-repeat:no-repeat;
-    background-size: cover;
-
+    background-color:#ffffff;
     }
+   
     img{
-        height: auto;
+        height:340px;
         width: 535px;
-        /* border:2px solid black; */
+        border:10px solid black;
         
     }
 /*...Contact....*/
@@ -153,57 +158,54 @@ p{
 
 @media screen and (min-width:320px) and (max-width:480px){
 
-    /* .box{
-       border:5px solid black;
-       width:100%;
-       height:250px; */
-   
-   /* NAVIGATION*/
-   .header{
-       height:500px;
-       background-color: #a48d7f;
-   }
-   nav {
-       display:flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
+    .header{
+        height:500px;
+        background-color: black;
+        
+    }
+    nav {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    nav ul{
+        list-style-type: none;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      
+        }
+        nav ul li a{
+            display:flex;
+            flex-wrap: wrap;
+            font-size: 25px;
+            color: rgb(255, 247, 247);
+            text-decoration: none;
+            padding: 22px 36px;
     
-   }
-   nav ul{
-       list-style-type: none;
-       display:flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-     
-       }
-       nav ul li a{
-           display:flex;
-           flex-wrap: wrap;
-           font-size: 25px;
-           color: rgb(0, 0, 0);
-           text-decoration: none;
-           padding: 22px 36px;
-           flex-direction: column;
-   
-       }
-       nav ul li a:hover{
-           background-color: rgba(187, 125, 66, 0.67);
-          
+        }
+        nav ul li a:hover{
+            background-color: rgba(57, 57, 57, 0.67);
            
-       }
-       #search{
-           height:25px;
-           margin-top: 20px;
-           border-radius: 50px;
-       }
-   .title{
-       color: rgb(0, 0, 0);
-       margin: 19px 0px 13px 9px;
-   
-   }
-   span{
-       color:red
-   }
+            
+        }
+        #search{
+            height:30px;
+            margin-top: 20px;
+             width: 130px;
+            border-radius: 50px;
+            background-color: hwb(175 6% 5%);
+        }
+    .title{
+        color: rgb(255, 255, 255);
+        margin: 19px 0px 13px 9px;
+    
+    }
+    span{
+        color:hwb(175 6% 5%);
+    }
    /*........Body.......*/
    /*........
    ..........\
@@ -215,7 +217,8 @@ p{
        height:1065px;
        padding-top: 180px;
        padding-bottom: 180px;
-       background-color:#cbb4a4;
+       background-color: #2f2c2c;
+       color: hwb(0 100% 0%);
 }
    
    /* .projects{ */
@@ -235,12 +238,13 @@ p{
    .pic img{
        height:210px;
        width: 210px;
-       border:2px solid black;
+       border:3px solid black;
        border-radius: 50%;}
        
    
    #me{
        margin-bottom: 115px;
+       color:hwb(175 6% 5%);
    }
    
    h2{
@@ -281,14 +285,14 @@ p{
        height:1065px;
        padding-top: 180px;
        padding-bottom: 180px;
-       background-color: #dbc5b5;
+       background-color:white
 
    
        }
        img{
            height:210px;
            width:210px;
-           border:2px solid black; }
+           border:3px solid black; }
            
       
    /*...Contact....*/
