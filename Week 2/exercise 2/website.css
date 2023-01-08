@@ -51,7 +51,7 @@ nav ul{
         margin-top: 20px;
          width: 130px;
         border-radius: 50px;
-        background-color: hwb(175 6% 5%);
+        background-color:#F26419;
     }
 .title{
     color: rgb(255, 255, 255);
@@ -59,7 +59,7 @@ nav ul{
 
 }
 span{
-    color:hwb(175 6% 5%);
+    color:#F26419;
 }
 /*........Body.......*/
 /*........
@@ -98,7 +98,7 @@ span{
 }
 #me{
     margin-bottom: 115px;
-    color:hwb(175 6% 5%);
+    color:#F26419;
 }
 
 h2{
@@ -139,7 +139,7 @@ p{
     height:720px;
     padding-top: 180px;
     padding-bottom: 180px;
-    background-color:#ffffff;
+    background-color: #d2d2d2;
     }
    
     img{
@@ -196,7 +196,7 @@ p{
             margin-top: 20px;
              width: 130px;
             border-radius: 50px;
-            background-color: hwb(175 6% 5%);
+            background-color: #F26419;
         }
     .title{
         color: rgb(255, 255, 255);
@@ -204,7 +204,7 @@ p{
     
     }
     span{
-        color:hwb(175 6% 5%);
+        color:#F26419;
     }
    /*........Body.......*/
    /*........
@@ -217,7 +217,7 @@ p{
        height:1065px;
        padding-top: 125px;
        padding-bottom: 85px;
-       background-color: #2f2c2c;
+       background-color: #000000;
        color: hwb(0 100% 0%);
 }
    
@@ -244,7 +244,7 @@ p{
    
    #me{
        margin-bottom: 115px;
-       color:hwb(175 6% 5%);
+       color:#F26419;
    }
    
    h2{
@@ -285,7 +285,7 @@ p{
        height:1065px;
        padding-top: 75px;
        padding-bottom: 180px;
-       background-color:white
+       background-color:#d2d2d2;
 
    
        }
